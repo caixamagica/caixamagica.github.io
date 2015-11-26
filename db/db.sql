@@ -32,6 +32,8 @@ CREATE TABLE `transacoes_caixamagica` (
   `m3` varchar(2) DEFAULT NULL,
   `m3_texto` varchar(4048) DEFAULT NULL,
   `nao_importa` bit(1) DEFAULT NULL,
+  `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `ip` varchar(30) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -54,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-11-26 15:15:00
+-- Dump completed on 2015-11-26 17:48:32
