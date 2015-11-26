@@ -28,8 +28,6 @@ else
 
 }
 
-
-
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -64,7 +62,13 @@ else
             <form method="POST">
               <div class="btn-decisicion">
 
-                  <?php while ($row = $result->fetch_array(MYSQLI_ASSOC)) { ?>
+                  <?php
+
+                  $ids_exibidos = "";
+
+                  while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
+                      $ids_exibidos .= $row['id']."|";
+                      ?>
 
                       <input type="radio" name="m2" onclick="this.form.submit();" class="decisao" id="decisao-<?php echo $row['id']; ?>" value="<?php echo $row['id']; ?>"/>
                       <label for="decisao-<?php echo $row['id']; ?>" class="large button"><?php echo $row['m1_texto']; ?></label>
@@ -75,14 +79,14 @@ else
           
           <div class="tool3 section">
 	          
-	          <a href="problema.html" class="medium secondary button">
+	          <a href="javascript:history.back();" class="medium secondary button">
 		          
 		      <ul id="icons" class="ui-widget ui-helper-clearfix">
 			      <li class="ui-state-default ui-corner-all" title="VOLTAR"><span class="ui-icon ui-icon-triangle-1-w"></span></li>
 	          </ul>
 	      
 			  <p>VOLTAR</p></a>
-	          <a href="index.html" class="medium alert button">
+	          <a href="index.php?nao_importa=m2:<?php echo $ids_exibidos; ?>" class="medium alert button">
 		          
 		          <p>NÃO ME IMPORTA</p>
 		          <ul id="icons" class="ui-widget ui-helper-clearfix">

@@ -72,14 +72,14 @@ if (isset($_POST['m1'])) {
 
               <div class="tool2 section">
 
-                  <a href="opciones.html" class="medium secondary button">
+                  <a href="javascript:history.back();" class="medium secondary button">
 
                   <ul id="icons" class="ui-widget ui-helper-clearfix">
                       <li class="ui-state-default ui-corner-all" title="VOLTAR"><span class="ui-icon ui-icon-triangle-1-w"></span></li>
                   </ul>
 
               <p>VOLTAR</p></a>
-                  <a href="index.html" class="medium alert button">
+                  <a href="index.php?nao_importa=m1" class="medium alert button">
 
                       <p>NÃO ME IMPORTO</p>
                       <ul id="icons" class="ui-widget ui-helper-clearfix">
@@ -105,6 +105,10 @@ if (isset($_POST['m1'])) {
     <script src="js/foundation.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/jquery.js"></script>
-    
+<?php
+
+    include_once('footer.php');
+
+?>
   </body>
 </html>

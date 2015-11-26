@@ -1,3 +1,16 @@
+<?php
+
+if (isset($_REQUEST['nao_importa'])) {
+
+  include_once('dbconfig.php');
+
+  mysqli_query($conn, sprintf( "INSERT INTO transacoes_caixamagica (idioma, metodo, nao_importa, ip) values ('%s', '%s', '%s', '%s' )",
+      'por', 4, $_REQUEST['nao_importa'] , $_SERVER['REMOTE_ADDR'] ));
+
+  include_once('footer.php');
+}
+
+?>
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
