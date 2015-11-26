@@ -1,3 +1,24 @@
+<?php
+
+include_once('dbconfig.php');
+
+$query = "SELECT id, m1_texto FROM transacoes_caixamagica WHERE metodo=1 ORDER BY rand() LIMIT 2";
+
+$stmt = $conn->stmt_init();
+if(!$stmt->prepare($query))
+{
+    print "Failed to prepare statement\n";
+}
+else
+{
+    $stmt->execute();
+    $result = $stmt->get_result();
+
+}
+
+
+
+?>
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
@@ -27,11 +48,18 @@
       <div class="large-12 columns">
         <div class="opcioness section">
 	        <!-- Grid Example -->
-          
-          <div class="btn-decisicion">
-          <a href="solucion.html" class="large button"> Não tem água na minha comunidade</a>
-          <a href="solucion.html" class="large button">Não tenho vaga na creche para o meu filho</a>          
-          </div>
+
+            <form method="POST">
+              <div class="btn-decisicion">
+
+                  <?php while ($row = $result->fetch_array(MYSQLI_ASSOC)) { ?>
+
+                      <radio id="decisao-<?php echo $row['id']; ?>" value="<?php echo $row['id']; ?>"/>
+                      <label for="decisao-<?php echo $row['id']; ?>" class="large button"><?php echo $row['m1_texto']; ?></label>
+
+                  <?php } ?>
+              </div>
+            </form>
           
           <div class="tool3 section">
 	          
@@ -65,6 +93,13 @@
     <script src="js/foundation.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/jquery.js"></script>
-    
+
+<?php
+$stmt->close();
+
+include_once('footer.php');
+
+?>
+
   </body>
 </html>
