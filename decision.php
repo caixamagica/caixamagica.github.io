@@ -2,6 +2,18 @@
 
 include_once('dbconfig.php');
 
+if (isset($_POST['m2'])) {
+
+    mysqli_query($conn, sprintf( "INSERT INTO transacoes_caixamagica (idioma, metodo, m2, ip) values ('%s', '%s', '%s', '%s' )",
+        'por', 2, $_POST['m2'], $_SERVER['REMOTE_ADDR'] ));
+
+    Header('Location: solucion.php');
+
+    exit();
+}
+
+
+
 $query = "SELECT id, m1_texto FROM transacoes_caixamagica WHERE metodo=1 ORDER BY rand() LIMIT 2";
 
 $stmt = $conn->stmt_init();
@@ -54,7 +66,7 @@ else
 
                   <?php while ($row = $result->fetch_array(MYSQLI_ASSOC)) { ?>
 
-                      <input type="radio" class="decisao" id="decisao-<?php echo $row['id']; ?>" value="<?php echo $row['id']; ?>"/>
+                      <input type="radio" name="m2" onclick="this.form.submit();" class="decisao" id="decisao-<?php echo $row['id']; ?>" value="<?php echo $row['id']; ?>"/>
                       <label for="decisao-<?php echo $row['id']; ?>" class="large button"><?php echo $row['m1_texto']; ?></label>
 
                   <?php } ?>

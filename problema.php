@@ -21,6 +21,8 @@ if (isset($_POST['m1'])) {
         'por', 1, $_POST['m1'], $qualitativo.$_POST['m1_texto'], $_SERVER['REMOTE_ADDR'] ));
 
     Header('Location: decision.php');
+
+    exit();
 }
 
 ?>
