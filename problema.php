@@ -3,8 +3,22 @@
 include_once('dbconfig.php');
 
 if (isset($_POST['m1'])) {
+
+    $qualitativo = "";
+    switch($_POST['m1']) {
+        case "a":
+            $qualitativo = "Não tenho ";
+            break;
+        case "b":
+            $qualitativo = "Não existe ";
+            break;
+        case "c":
+            $qualitativo = "Não gosto ";
+            break;
+    }
+
     mysqli_query($conn, sprintf( "INSERT INTO transacoes_caixamagica (idioma, metodo, m1, m1_texto, ip) values ('%s', '%s', '%s', '%s', '%s' )",
-        'por', 1, $_POST['m1'], $_POST['m1_texto'], $_SERVER['REMOTE_ADDR'] ));
+        'por', 1, $_POST['m1'], $qualitativo.$_POST['m1_texto'], $_SERVER['REMOTE_ADDR'] ));
 
     Header('Location: decision.php');
 }
