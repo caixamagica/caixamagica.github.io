@@ -171,19 +171,19 @@ p.subtitle {
 	padding: 10% 0 0 12%; }
 
 	@media (max-width: 1024px) {
-	    .section.tool2 {
+	    .section.tool5 {
 	        padding: 10% 0 0 0%; } }
 	
 	@media (max-width: 480px) {
-	    .section.tool2 {
+	    .section.tool5 {
 	        padding: 10% 0 0 5%; } }
 	
 	@media (max-width: 768px) {
-	    .section.tool2 {
+	    .section.tool5 {
 	        padding: 10% 0 0 4%; } }
 	
 	@media (max-width: 590px) {
-	    .section.tool2 {
+	    .section.tool5 {
 	        padding: 10% 0 0 0%; } }
 		        
 .section.all {
