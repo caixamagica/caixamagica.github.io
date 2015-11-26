@@ -54,7 +54,7 @@ else
 
                   <?php while ($row = $result->fetch_array(MYSQLI_ASSOC)) { ?>
 
-                      <radio id="decisao-<?php echo $row['id']; ?>" value="<?php echo $row['id']; ?>"/>
+                      <input type="radio" class="decisao" id="decisao-<?php echo $row['id']; ?>" value="<?php echo $row['id']; ?>"/>
                       <label for="decisao-<?php echo $row['id']; ?>" class="large button"><?php echo $row['m1_texto']; ?></label>
 
                   <?php } ?>

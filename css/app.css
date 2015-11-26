@@ -272,4 +272,7 @@ p.subtitle {
       
 .logo{
 	text-align: center; }
-	
+
+input[type="radio"].decisao {
+	display: none;
+}
