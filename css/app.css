@@ -1,8 +1,5 @@
 body.opciones{
-	background: -webkit-linear-gradient(#D4E1F1, #97BBDB); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#D4E1F1, #97BBDB); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#D4E1F1, #97BBDB); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#D4E1F1, #97BBDB); /* Standard syntax */ }
+	background-color: #D4E1F1; }
 
 #icons {
 		margin: 0;
@@ -76,7 +73,8 @@ body.opciones{
 
 	@media (max-width: 480px) {
 	    .section.opcionesq {
-		padding: 5% 0 5% 0; } }
+		padding: 5% 0 5% 20%;
+		margin: 0 0 0 15%; } }
 
 .section.opcionesp {
 	padding: 5% 10% 0 30%;
@@ -140,7 +138,7 @@ p.subtitle {
 	
 	@media (max-width: 590px) {
 	    .section.tool2 {
-	        padding: 10% 0 0 14%; } }
+	        padding: 10% 0 0 8%; } }
 
 .section.tool3{
 	padding: 10% 0 0 25%; }
@@ -252,3 +250,5 @@ p.subtitle {
       background: #22bb5b;
       color: #fff; }
       
+.logo{
+	text-align: center; }
