@@ -50,7 +50,7 @@ else
 
 <div class="row">
       <div class="large-12 columns">
-        <h2>Decide!</h2>
+        <h2>Qual das duas queixas abaixo você considera mais urgente? Decide!</h2>
       </div>
     </div>
 
@@ -88,7 +88,7 @@ else
 			  <p>VOLTAR</p></a>
 	          <a href="index.php?nao_importa=m2:<?php echo $ids_exibidos; ?>" class="medium alert button">
 		          
-		          <p>NÃO ME IMPORTA</p>
+		          <p>NÃO ME IMPORTO</p>
 		          <ul id="icons" class="ui-widget ui-helper-clearfix">
 			      <li class="ui-state-default ui-corner-all" title="NÃO ME IMPORTA"><span class="ui-icon ui-icon-alert"></span></li>
 	          </ul>    
