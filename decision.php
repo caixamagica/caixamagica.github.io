@@ -4,8 +4,8 @@ include_once('dbconfig.php');
 
 if (isset($_POST['m2'])) {
 
-    mysqli_query($conn, sprintf( "INSERT INTO transacoes_caixamagica (idioma, metodo, m2, ip) values ('%s', '%s', '%s', '%s' )",
-        'por', 2, $_POST['m2'], $_SERVER['REMOTE_ADDR'] ));
+    mysqli_query($conn, sprintf( "INSERT INTO transacoes_caixamagica (idioma, metodo, m2, m2d, ip) values ('%s', '%s', '%s', '%s', '%s' )",
+        'por', 2, $_POST['m2'], $_POST['m2d'], $_SERVER['REMOTE_ADDR'] ));
 
     Header('Location: solucion.php');
 
@@ -59,24 +59,26 @@ else
         <div class="opcioness section">
 	        <!-- Grid Example -->
 
-            <form method="POST">
-              <div class="btn-decisicion">
+              <div class="btn-decisicion row">
 
                   <?php
 
                   $ids_exibidos = "";
+                  $i = 1;
 
                   while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
                       $ids_exibidos .= $row['id']."|";
                       ?>
-
+                    <form method="POST" id="form-<?php echo $i; ?>">
                       <input type="radio" name="m2" onclick="this.form.submit();" class="decisao" id="decisao-<?php echo $row['id']; ?>" value="<?php echo $row['id']; ?>"/>
+                      <input type="hidden" name="m2d" value=""/>
                       <label for="decisao-<?php echo $row['id']; ?>" class="large button"><?php echo $row['m1_texto']; ?></label>
-
-                  <?php } ?>
+                    </form>
+                  <?php
+                    $i++;
+                  } ?>
               </div>
-            </form>
-          
+
           <div class="tool3 section">
 	          
 	          <a href="javascript:history.back();" class="medium secondary button">
@@ -109,6 +111,16 @@ else
     <script src="js/foundation.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/jquery.js"></script>
+    <script>
+
+        jQuery(function($){
+
+            $('#form-1 input[name="m2d"]').val($('#form-2 input[name="m2"]').val());
+            $('#form-2 input[name="m2d"]').val($('#form-1 input[name="m2"]').val());
+
+        });
+
+    </script>
 
 <?php
 $stmt->close();
