@@ -19,7 +19,7 @@
 
 <div class="row">
       <div class="large-12 columns">
-        <h2>Como você resolveria ---inserir aqui o texto da alternativa---</h2>
+        <h2>O que você faria para resolver a falta de água na minha comunidade?</h2>
       </div>
     </div>
 
@@ -35,7 +35,7 @@
           <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Realizar uma ação coletiva</label>
           </div>
          
-              <textarea class="coment" placeholder="Nenhuma das anteriores? Escreva aqui sua sugestão..."></textarea>
+              <textarea class="coment" placeholder="Escreva sua solução aqui..."></textarea>
               <a href="agradecimiento.html" class="medium success button">ENVIAR</a>
           
           
@@ -50,7 +50,7 @@
 	      <p>VOLTAR</p></a>
 	          <a href="index.html" class="medium alert button">
 		          
-		          <p>NÃO ME IMPORTO</p>
+		          <p>NÃO ME IMPORTA</p>
 		          <ul id="icons" class="ui-widget ui-helper-clearfix">
 			      <li class="ui-state-default ui-corner-all" title="NÃO ME IMPORTA"><span class="ui-icon ui-icon-alert"></span></li>
 	          </ul>
