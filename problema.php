@@ -98,7 +98,7 @@ if (isset($_POST['m1'])) {
         </div>
     </form>
   
-	<div class="logo"><img src="img/logo_caixa.png" alt="Caixa Mágica"></div>
+	<div class="logo"><img src="img/logo_caixa_final.png" alt="Caixa Mágica"></div>
 
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
