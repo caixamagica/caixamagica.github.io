@@ -76,6 +76,16 @@ body.opciones{
 		padding: 5% 0 5% 20%;
 		/*margin: 0 0 0 15%;*/ } }
 
+.section.opcionesa {
+	padding: 5% 25%;
+	width: 100%; }
+
+	@media (max-width: 480px) {
+	    .section.opcionesa {
+		padding: 5% 0;
+		/*margin: 0 0 0 15%;*/ } }
+
+
 .section.opcionesp {
 	padding: 5% 10% 0 30%;
 	width: 100%; }
@@ -167,6 +177,21 @@ p.subtitle {
 		    .section.tool4 {
 		        padding: 7% 0 0 25%; } }
 		        
+.section.tool6{
+	padding: 10% 0 0 25%; }
+
+	@media (max-width: 1024px) {
+		    .section.tool6 {
+		        padding: 10% 0 0 20%; } }
+	
+	@media (max-width: 768px) {
+		    .section.tool6 {
+		        padding: 7% 0 0 10%; } }
+	
+	@media (max-width: 480px) {
+		    .section.tool6 {
+		        padding: 0; } }
+	
 .section.tool5{
 	padding: 10% 0 0 12%; }
 

@@ -47,7 +47,7 @@ if (isset($_POST['m1'])) {
 
     <div class="row">
       <div class="large-12 columns">
-        <h2>Tem alguma crítica sobre a barca?</h2>
+        <h2><strong>Tem alguma crítica sobre a barca?</strong><br>Não...</h2>
       </div>
     </div>
 
@@ -57,7 +57,7 @@ if (isset($_POST['m1'])) {
           <div class="large-12 columns">
             <div class="opcionesp section">
                 <!-- Grid Example -->
-              <p class="title">Não...</p>
+              <!-- <p class="title">Não...</p> -->
 
 
               <div class="radio-group">

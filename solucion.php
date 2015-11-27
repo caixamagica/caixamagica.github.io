@@ -71,7 +71,7 @@ else
 
 <div class="row">
       <div class="large-12 columns">
-        <h2>Como você resolveria "<?php echo $solucao['m1_texto']; ?>"</h2>
+        <h2><strong>Como você resolveria "<?php echo $solucao['m1_texto']; ?>"</strong></h2>
       </div>
     </div>
 

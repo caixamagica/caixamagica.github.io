@@ -1403,7 +1403,10 @@ kbd {
     font-size: 1.25rem;
     padding: 2.8rem;
     border-radius: 10px;
-    border: 2px solid white; }
+    border: 2px solid white;
+    box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.2) inset; }
+    .button.large:hover, .button.large:focus {
+      box-shadow: none; }
   .button.expanded {
     display: block;
     width: 100%;
