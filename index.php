@@ -42,7 +42,7 @@ if (isset($_REQUEST['nao_importa'])) {
         </div>
       </div>
     </div>
-                <a href="vezualizacao.php" class="medium result button">Acompanhe a participação</a> 
+                <a href="visualizacao.php" class="medium result button">Acompanhe a participação</a> 
 
 	<div class="logo"><img src="img/logo_caixa.png" alt="Caixa Mágica" width="200" height="79"></div>
 
