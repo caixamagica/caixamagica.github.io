@@ -47,7 +47,7 @@ if (isset($_POST['m1'])) {
 
     <div class="row">
       <div class="large-12 columns">
-        <h2><strong>Tem alguma crítica sobre a barca?</strong><br>Não...</h2>
+        <h2><strong>Qual sua crítica sobre a barca?</strong><br>Não...</h2>
       </div>
     </div>
 
@@ -98,7 +98,7 @@ if (isset($_POST['m1'])) {
         </div>
     </form>
   
-	<div class="logo"><img src="img/logo_caixa.png" alt="Caixa Mágica" width="200" height="79"></div>
+	<div class="logo"><img src="img/logo_caixa.png" alt="Caixa Mágica"></div>
 
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>

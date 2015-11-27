@@ -44,7 +44,7 @@ if (isset($_REQUEST['nao_importa'])) {
     </div>
                 <a href="resultados.html" class="medium result button">Resultados da pesquisa</a> 
 
-	<div class="logo"><img src="img/logo_caixa.png" alt="Caixa Mágica" width="200" height="79"></div>
+	<div class="logo"><img src="img/logo_caixa.png" alt="Caixa Mágica"></div>
 
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>

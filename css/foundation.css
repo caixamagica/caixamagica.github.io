@@ -1404,7 +1404,9 @@ kbd {
     padding: 2.8rem;
     border-radius: 10px;
     border: 2px solid white;
-    box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.2) inset; }
+    box-shadow: 1px 1px 5px gray;
+    float: right;
+    margin-right: 10px; }
     .button.large:hover, .button.large:focus {
       box-shadow: none; }
   .button.expanded {

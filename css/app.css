@@ -188,9 +188,6 @@ p.subtitle {
 		    .section.tool6 {
 		        padding: 7% 0 0 10%; } }
 	
-	@media (max-width: 480px) {
-		    .section.tool6 {
-		        padding: 0; } }
 	
 .section.tool5{
 	padding: 10% 0 0 12%; }
@@ -271,7 +268,7 @@ p.subtitle {
 			margin: 0 0 0 25%; } }
 		    
 .button.result {
-    margin: 0 0 0 41%;
+    margin: 0 0 0 39%;
     padding: 12px 30px; }
 
 	@media (max-width: 480px) {
@@ -282,9 +279,9 @@ p.subtitle {
 		.button.result {
 		    margin: 0 0 0 20%; } }
 
-	@media (max-width: 1024px) {
+	/* @media (max-width: 1024px) {
 		.button.result {
-			margin: 0 0 0 16%; } }
+			margin: 0 0 0 16%; } } */
 
   .button.result {
     background: #3E539A;
@@ -299,5 +296,11 @@ p.subtitle {
 	text-align: center; }
 
 input[type="radio"].decisao {
-	display: none;
-}
+	display: none; }
+
+.btn-decisicion{
+	margin: 0 0 0 16%; }
+	
+	@media (max-width: 480px) {
+		btn-decisicion {
+		    margin: 0; } }
