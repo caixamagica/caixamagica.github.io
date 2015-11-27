@@ -1399,16 +1399,6 @@ kbd {
     font-size: 0.6rem; }
   .button.small {
     font-size: 0.75rem; }
-  .button.large {
-    font-size: 1.25rem;
-    padding: 2.8rem;
-    border-radius: 10px;
-    border: 2px solid white;
-    box-shadow: 1px 1px 5px gray;
-    float: right;
-    margin-right: 10px; }
-    .button.large:hover, .button.large:focus {
-      box-shadow: none; }
   .button.expanded {
     display: block;
     width: 100%;
