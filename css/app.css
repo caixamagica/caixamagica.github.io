@@ -4,6 +4,13 @@ body.opciones{
 h3 {
   text-align: left; }
 
+video{
+	margin: 0px 0px 0px 18%; }
+
+@media (max-width: 480px) {
+	    video {
+	        margin: 0%; } }
+
 #icons {
 		margin: 0;
 		padding: 0; }
