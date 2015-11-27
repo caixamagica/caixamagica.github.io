@@ -47,7 +47,7 @@ if (isset($_POST['m1'])) {
 
     <div class="row">
       <div class="large-12 columns">
-        <h2><strong>Qual sua crítica sobre a barca?</strong><br>Não...</h2>
+        <h2><strong>Qual sua crítica sobre a barca?</strong></h2>
       </div>
     </div>
 
@@ -59,11 +59,12 @@ if (isset($_POST['m1'])) {
                 <!-- Grid Example -->
               <!-- <p class="title">Não...</p> -->
 
+			  <h3>Não...</h3>
 
               <div class="radio-group">
-              <input type="radio" name="m1" value="a" id="pokemonRed"><label for="pokemonRed">Tenho</label>
-              <input type="radio" name="m1" value="b" id="pokemonRed"><label for="pokemonRed">Existe</label>
-              <input type="radio" name="m1" value="c" id="pokemonRed"><label for="pokemonRed">Gosto</label>
+              <input type="radio" name="m1" value="a" id="pokemonRed"><label for="pokemonRed">tenho</label>
+              <input type="radio" name="m1" value="b" id="pokemonRed"><label for="pokemonRed">existe</label>
+              <input type="radio" name="m1" value="c" id="pokemonRed"><label for="pokemonRed">gosto</label>
               </div>
 
                   <textarea class="coment" placeholder="Escreva sua queixa aqui..." name="m1_texto"></textarea>

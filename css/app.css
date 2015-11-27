@@ -1,6 +1,9 @@
 body.opciones{
 	background-color: #D4E1F1; }
 
+h3 {
+  text-align: left; }
+
 #icons {
 		margin: 0;
 		padding: 0; }
@@ -217,7 +220,7 @@ p.subtitle {
 .radio-group {
   display: table;
   width: 100%;
-  margin: 0 0 1rem 20%; }
+  /* margin: 0 0 1rem 20%;*/ }
 
 	@media (max-width: 480px) {
 	    .radio-group {
