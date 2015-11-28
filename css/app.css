@@ -194,11 +194,7 @@ p.subtitle {
 	@media (max-width: 1024px) {
 		    .section.tool6 {
 		        padding: 10% 0 0 20%; } }
-	
-	@media (max-width: 768px) {
-		    .section.tool6 {
-		        padding: 7% 0 0 10%; } }
-	
+		
 	@media (max-width: 768px) {
 		    .section.tool6 {
 		        padding: 7% 0 0 12%; } }

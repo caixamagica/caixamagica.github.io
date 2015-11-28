@@ -1,5 +1,7 @@
 <?php
 
+include_once('textos.php');
+
 include_once('dbconfig.php');
 
 if (isset($_POST['m3'])) {
@@ -71,7 +73,7 @@ else
 
 <div class="row">
       <div class="large-12 columns">
-        <h2><strong>Como você resolveria "<?php echo $solucao['m1_texto']; ?>"</strong></h2>
+        <h2><strong><?php echo $texto['question-solucao']; ?> "<?php echo $solucao['m1_texto']; ?>"</strong></h2>
       </div>
     </div>
 
@@ -82,11 +84,11 @@ else
                 <!-- Grid Example -->
 
               <div class="radio-group">
-              <input type="radio" name="m3" value="a" id="pokemonRed"><label for="pokemonRed">Contatar uma autoridade</label><br>
-              <input type="radio" name="m3" value="b" id="pokemonRed"><label for="pokemonRed">Participar de uma manifestação</label><br>
-              <input type="radio" name="m3" value="c" id="pokemonRed"><label for="pokemonRed">Assinar um abaixo-assinado</label><br>
-              <input type="radio" name="m3" value="d" id="pokemonRed"><label for="pokemonRed">Realizar uma ação coletiva</label><br/>
-              <input type="radio" name="m3" value="e" id="pokemonRed"><label for="pokemonRed">Outra coisa</label>
+              <input type="radio" name="m3" value="a" id="pokemonRed"><label for="pokemonRed"><?php echo $texto['question-solucao-opcion-1']; ?></label><br>
+              <input type="radio" name="m3" value="b" id="pokemonRed"><label for="pokemonRed"><?php echo $texto['question-solucao-opcion-2']; ?></label><br>
+              <input type="radio" name="m3" value="c" id="pokemonRed"><label for="pokemonRed"><?php echo $texto['question-solucao-opcion-3']; ?></label><br>
+              <input type="radio" name="m3" value="d" id="pokemonRed"><label for="pokemonRed"><?php echo $texto['question-solucao-opcion-4']; ?></label><br/>
+              <input type="radio" name="m3" value="e" id="pokemonRed"><label for="pokemonRed"><?php echo $texto['question-solucao-opcion-5']; ?></label>
               </div>
 
                   <textarea class="coment" name="m3_texto" placeholder="Nenhuma das anteriores? Escreva aqui sua sugestão..."></textarea>
