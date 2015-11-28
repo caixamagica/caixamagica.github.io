@@ -1,4 +1,9 @@
-<!doctype html>
+<?php
+
+include_once( 'inicializacion.php' );
+
+include_once('textos_' . $_SESSION['lang'] . '.php');
+?><!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -21,11 +26,11 @@
       <div class="large-12 columns">
         <div class="opcionesa section">
 	        <!-- Grid Example -->
-          <p class="subtitle">Obrigado por sua participação</p>
-                   
-                   <video controls height="240" width="320">
-				   	<source src="videos/video_barcas.mp4" type="video/mp4">
-				</video>
+          <p class="subtitle"><?php echo $texto['gracias']; ?></p>
+                   <!-- -->
+                   <!--<video controls height="240" width="320">-->
+				   	<!--<source src="videos/video_barcas.mp4" type="video/mp4">-->
+				<!--</video>-->
                    
           <div class="tool6 section">
 	          
@@ -35,7 +40,7 @@
 			      <li class="ui-state-default ui-corner-all" title="VOLTAR"><span class="ui-icon ui-icon-triangle-1-w"></span></li>
 	          </ul>
 	      
-	      <p>COMEÇAR DE NOVO</p></a>
+	      <p><?php echo $texto['empiezar-de-nuevo']; ?></p></a>
 
           </div>
           
@@ -53,6 +58,10 @@
     <script src="js/foundation.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/jquery.js"></script>
-    
+    <?php
+
+    include_once('footer.php');
+
+    ?>
   </body>
 </html>

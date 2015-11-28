@@ -1,5 +1,5 @@
 <?php
-  include_once('dbconfig.php');
+  include_once( 'inicializacion.php' );
   $result=mysqli_query($conn, "SELECT * from transacoes_caixamagica;");
   //$result2=mysqli_fetch_array($conn, $result);
   $result2=mysqli_fetch_all( $result,MYSQLI_ASSOC);

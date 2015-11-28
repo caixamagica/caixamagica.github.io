@@ -1,4 +1,17 @@
-<!doctype html>
+<?php
+
+include_once('inicializacion.php');
+
+
+if (isset($_REQUEST['lang'])) {
+  $_SESSION["lang"] = $_REQUEST['lang'];
+} else {
+  $_SESSION["lang"] = "por";
+}
+
+    include_once('textos_' . $_SESSION['lang'] . '.php');
+
+?><!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -24,18 +37,18 @@
           <div class="tool section">
 	          
 	          <a href="javascript:history.back();" class="medium secondary button">
-		          
-		      <ul id="icons" class="ui-widget ui-helper-clearfix">
-			      <li class="ui-state-default ui-corner-all" title="VOLTAR"><span class="ui-icon ui-icon-triangle-1-w"></span></li>
-	          </ul>
-	      
-	      <p>VOLTAR</p></a>
+
+                <ul id="icons" class="ui-widget ui-helper-clearfix">
+                  <li class="ui-state-default ui-corner-all" title="<?php echo $texto['volver']; ?>"><span class="ui-icon ui-icon-triangle-1-w"></span></li>
+                </ul>
+
+                <p><?php echo $texto['volver']; ?></p></a>
 	          <a href="index.php?nao_importa=opciones" class="medium alert button">
-		          
-		          <p>NÃO ME IMPORTA</p>
-		          <ul id="icons" class="ui-widget ui-helper-clearfix">
-			      <li class="ui-state-default ui-corner-all" title="NÃO ME IMPORTA"><span class="ui-icon ui-icon-alert"></span></li>
-	          </ul>
+
+                <p><?php echo $texto['no-me-importa']; ?></p>
+                <ul id="icons" class="ui-widget ui-helper-clearfix">
+                  <li class="ui-state-default ui-corner-all" title="<?php echo $texto['no-me-importa']; ?>"><span class="ui-icon ui-icon-alert"></span></li>
+                </ul>
 		          
 		          
 		  </a>
@@ -54,6 +67,8 @@
     <script src="js/foundation.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/jquery.js"></script>
-    
+
+  <?php include_once('footer.php'); ?>
+
   </body>
 </html>

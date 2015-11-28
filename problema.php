@@ -1,8 +1,8 @@
 <?php
 
-include_once('textos.php');
+include_once( 'inicializacion.php' );
 
-include_once('dbconfig.php');
+include_once('textos_' . $_SESSION['lang'] . '.php');
 
 if (isset($_POST['m1'])) {
 
@@ -61,7 +61,7 @@ if (isset($_POST['m1'])) {
                 <!-- Grid Example -->
               <!-- <p class="title">Não...</p> -->
 
-			  <h3>Não...</h3>
+			  <h3><?php echo $texto['negacion']; ?>...</h3>
 
               <div class="radio-group">
               <input type="radio" name="m1" value="a" id="pokemonRed" checked><label for="pokemonRed"><?php echo $texto['question-problema-opcion-1']; ?></label>
@@ -78,15 +78,15 @@ if (isset($_POST['m1'])) {
                   <a href="javascript:history.back();" class="medium secondary button">
 
                   <ul id="icons" class="ui-widget ui-helper-clearfix">
-                      <li class="ui-state-default ui-corner-all" title="VOLTAR"><span class="ui-icon ui-icon-triangle-1-w"></span></li>
+                      <li class="ui-state-default ui-corner-all" title="<?php echo $texto['volver']; ?>"><span class="ui-icon ui-icon-triangle-1-w"></span></li>
                   </ul>
 
-              <p>VOLTAR</p></a>
+              <p><?php echo $texto['volver']; ?></p></a>
                   <a href="index.php?nao_importa=m1" class="medium alert button">
 
-                      <p>NÃO ME IMPORTO</p>
+                      <p><?php echo $texto['no-me-importa']; ?></p>
                       <ul id="icons" class="ui-widget ui-helper-clearfix">
-                      <li class="ui-state-default ui-corner-all" title="NÃO ME IMPORTA"><span class="ui-icon ui-icon-alert"></span></li>
+                      <li class="ui-state-default ui-corner-all" title="<?php echo $texto['no-me-importa']; ?>"><span class="ui-icon ui-icon-alert"></span></li>
                   </ul>
 
 

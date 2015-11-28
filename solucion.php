@@ -1,15 +1,15 @@
 <?php
 
-include_once('textos.php');
+include_once( 'inicializacion.php' );
 
-include_once('dbconfig.php');
+include_once('textos_' . $_SESSION['lang'] . '.php');
 
 if (isset($_POST['m3'])) {
 
     mysqli_query($conn, sprintf( "INSERT INTO transacoes_caixamagica (idioma, metodo, m3, m3_texto, m3_origem, ip) values ('%s', '%s', '%s', '%s', '%s', '%s' )",
         'por', 3, $_POST['m3'], $_POST['m3_texto'], $_POST['m3_origem'], $_SERVER['REMOTE_ADDR'] ));
 
-    Header('Location: agradecimiento.html');
+    Header('Location: agradecimiento.php');
 
     exit();
 
@@ -91,7 +91,7 @@ else
               <input type="radio" name="m3" value="e" id="pokemonRed"><label for="pokemonRed"><?php echo $texto['question-solucao-opcion-5']; ?></label>
               </div>
 
-                  <textarea class="coment" name="m3_texto" placeholder="Nenhuma das anteriores? Escreva aqui sua sugestão..." required></textarea>
+                  <textarea class="coment" name="m3_texto" placeholder="Nenhuma das anteriores? Escreva aqui sua sugestão..."></textarea>
                   <button type="submit" class="medium success button">ENVIAR</button>
                 <input type="hidden" name="m3_origem" value="<?php echo $solucao['id']; ?>"/>
 
@@ -100,15 +100,15 @@ else
                   <a href="javascript:history.back();" class="medium secondary button">
 
                   <ul id="icons" class="ui-widget ui-helper-clearfix">
-                      <li class="ui-state-default ui-corner-all" title="VOLTAR"><span class="ui-icon ui-icon-triangle-1-w"></span></li>
+                      <li class="ui-state-default ui-corner-all" title="<?php echo $texto['volver']; ?>"><span class="ui-icon ui-icon-triangle-1-w"></span></li>
                   </ul>
 
-              <p>VOLTAR</p></a>
+                      <p><?php echo $texto['volver']; ?></p></a>
                   <a href="index.php?nao_importa=m3:<?php echo $solucao['id']; ?>" class="medium alert button">
 
-                      <p>NÃO ME IMPORTO</p>
+                      <p><?php echo $texto['no-me-importa']; ?></p>
                       <ul id="icons" class="ui-widget ui-helper-clearfix">
-                      <li class="ui-state-default ui-corner-all" title="NÃO ME IMPORTA"><span class="ui-icon ui-icon-alert"></span></li>
+                      <li class="ui-state-default ui-corner-all" title="<?php echo $texto['no-me-importa']; ?>"><span class="ui-icon ui-icon-alert"></span></li>
                   </ul>
 
 

@@ -1,8 +1,8 @@
 <?php
 
-include_once('textos.php');
+include_once( 'inicializacion.php' );
 
-include_once('dbconfig.php');
+include_once( 'textos_' . $_SESSION['lang'] . '.php' );
 
 if (isset($_POST['m2'])) {
 
@@ -84,17 +84,17 @@ else
           <div class="tool3 section">
 	          
 	          <a href="javascript:history.back();" class="medium secondary button">
-		          
-		      <ul id="icons" class="ui-widget ui-helper-clearfix">
-			      <li class="ui-state-default ui-corner-all" title="VOLTAR"><span class="ui-icon ui-icon-triangle-1-w"></span></li>
-	          </ul>
-	      
-			  <p>VOLTAR</p></a>
+
+                  <ul id="icons" class="ui-widget ui-helper-clearfix">
+                      <li class="ui-state-default ui-corner-all" title="<?php echo $texto['volver']; ?>"><span class="ui-icon ui-icon-triangle-1-w"></span></li>
+                  </ul>
+
+                  <p><?php echo $texto['volver']; ?></p></a>
 	          <a href="index.php?nao_importa=m2:<?php echo $ids_exibidos; ?>" class="medium alert button">
-		          
-		          <p>NÃO ME IMPORTO</p>
-		          <ul id="icons" class="ui-widget ui-helper-clearfix">
-			      <li class="ui-state-default ui-corner-all" title="NÃO ME IMPORTA"><span class="ui-icon ui-icon-alert"></span></li>
+
+                  <p><?php echo $texto['no-me-importa']; ?></p>
+                  <ul id="icons" class="ui-widget ui-helper-clearfix">
+                      <li class="ui-state-default ui-corner-all" title="<?php echo $texto['no-me-importa']; ?>"><span class="ui-icon ui-icon-alert"></span></li>
 	          </ul>    
 		  </a>
           </div>

@@ -2,7 +2,7 @@
 
 if (isset($_REQUEST['nao_importa'])) {
 
-  include_once('dbconfig.php');
+  include_once( 'inicializacion.php' );
 
   mysqli_query($conn, sprintf( "INSERT INTO transacoes_caixamagica (idioma, metodo, nao_importa, ip) values ('%s', '%s', '%s', '%s' )",
       'por', 4, $_REQUEST['nao_importa'] , $_SERVER['REMOTE_ADDR'] ));
@@ -34,8 +34,8 @@ if (isset($_REQUEST['nao_importa'])) {
         <div class="home section">
 	        <!-- Grid Example -->
           
-          <a href="opciones.php" class="big button">Português</a>
-          <a href="#" class="big button">Español</a>
+          <a href="opciones.php?lang=por" class="big button">Português</a>
+          <a href="opciones.php?lang=esp" class="big button">Español</a>
           
           <!-- FIN Grid Example -->
           </div>
