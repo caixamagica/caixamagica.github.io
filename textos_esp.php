@@ -6,10 +6,10 @@ $texto = array();
 $texto['negacion'] = "No";
 $texto['question-problema'] = "Qual es su crítica en relación al LABICBR?";
 $texto['question-problema-opcion-1'] = "deveria";
-$texto['question-problema-opcion-2'] = "tube";
+$texto['question-problema-opcion-2'] = "tenia";
 $texto['question-problema-opcion-3'] = "me gusto";
 $texto['qualitativo-opcion-1'] = "No deveria ";
-$texto['qualitativo-opcion-2'] = "No tube ";
+$texto['qualitativo-opcion-2'] = "No tenia ";
 $texto['qualitativo-opcion-3'] = "No me gusto ";
 
 // decision.php
