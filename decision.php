@@ -1,5 +1,7 @@
 <?php
 
+include_once('textos.php');
+
 include_once('dbconfig.php');
 
 if (isset($_POST['m2'])) {
@@ -50,7 +52,7 @@ else
 
 <div class="row">
       <div class="large-12 columns">
-        <h2><strong>Qual das duas queixas abaixo você considera mais urgente?</strong></h2>
+        <h2><strong><?php echo $texto['question-decisao']; ?></strong></h2>
       </div>
     </div>
 
