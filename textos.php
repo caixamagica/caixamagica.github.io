@@ -3,18 +3,18 @@
 $texto = array();
 
 // Problema.php
-$texto['question-problema'] = "Qual sua crítica sobre a barca?";
-$texto['question-problema-opcion-1'] = "tenho";
-$texto['question-problema-opcion-2'] = "existe";
-$texto['question-problema-opcion-3'] = "gosto";
+$texto['question-problema'] = "Qual sua crítica em relação ao LABICBR?";
+$texto['question-problema-opcion-1'] = "deveria";
+$texto['question-problema-opcion-2'] = "tinha";
+$texto['question-problema-opcion-3'] = "gostei";
 
 // decision.php
-$texto['question-decisao'] = "Qual das duas queixas abaixo você considera mais urgente?";
+$texto['question-decisao'] = "Com qual dessas duas críticas sobre o LABICBR você se identifica mais?";
 
 // solucion.php
-$texto['question-solucao'] = "Como você resolveria";
-$texto['question-solucao-opcion-1'] = "Contatar uma autoridade";
-$texto['question-solucao-opcion-2'] = "Participar de uma manifestação";
-$texto['question-solucao-opcion-3'] = "Assinar um abaixo-assinado";
+$texto['question-solucao'] = "Como você resolveria o problema";
+$texto['question-solucao-opcion-1'] = "Preparar um documento coletivo com sugestões de melhorias";
+$texto['question-solucao-opcion-2'] = "Fazer uma reunião com todos os participantes";
+$texto['question-solucao-opcion-3'] = "Fazer seu próprio LABIC";
 $texto['question-solucao-opcion-4'] = "Realizar uma ação coletiva";
 $texto['question-solucao-opcion-5'] = "Outra coisa";
