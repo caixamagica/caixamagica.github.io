@@ -240,17 +240,12 @@ Atividade no tempo
 <div class="mcentered2"></div>
 </div>
           <div class="tool5 section">
-	          
 	          <a href="index.php?nao_importa=1" class="medium alert button">
-		          
 		          <p>NÃO ME IMPORTA</p>
 		          <ul id="icons" class="ui-widget ui-helper-clearfix">
-			      <li class="ui-state-default ui-corner-all" title="NÃO ME IMPORTA"><span class="ui-icon ui-icon-alert"></span></li>
-	          </ul>
-		          
-		          
-		  </a>
+			      	<li class="ui-state-default ui-corner-all" title="NÃO ME IMPORTA"><span class="ui-icon ui-icon-alert"></span></li>
+	          	  </ul>
+		  	  </a>
           </div>
-          
   </body>
 </html>
