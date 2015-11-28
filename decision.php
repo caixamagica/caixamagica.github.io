@@ -50,7 +50,7 @@ else
 
 <div class="row">
       <div class="large-12 columns">
-        <h2>Qual das duas queixas abaixo você considera mais urgente? Decide!</h2>
+        <h2><strong>Qual das duas queixas abaixo você considera mais urgente?</strong></h2>
       </div>
     </div>
 
