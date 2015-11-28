@@ -1,0 +1,220 @@
+[Wed Nov 25 15:12:37.807565 2015] [mpm_event:notice] [pid 4125:tid 3066261504] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 15:12:37.808419 2015] [core:notice] [pid 4125:tid 3066261504] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 15:13:31.421522 2015] [mpm_event:notice] [pid 4125:tid 3066261504] AH00494: SIGHUP received.  Attempting to restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Nov 25 15:13:31.453397 2015] [mpm_event:notice] [pid 4125:tid 3066261504] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 15:13:31.453617 2015] [core:notice] [pid 4125:tid 3066261504] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 15:17:40.555231 2015] [mpm_event:notice] [pid 4125:tid 3066261504] AH00493: SIGUSR1 received.  Doing graceful restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Nov 25 15:17:40.595355 2015] [mpm_event:notice] [pid 4125:tid 3066261504] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 15:17:40.595494 2015] [core:notice] [pid 4125:tid 3066261504] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 15:19:03.798666 2015] [mpm_event:notice] [pid 4125:tid 3066261504] AH00493: SIGUSR1 received.  Doing graceful restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Nov 25 15:19:03.837259 2015] [mpm_event:notice] [pid 4125:tid 3066261504] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 15:19:03.837390 2015] [core:notice] [pid 4125:tid 3066261504] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 15:47:26.708133 2015] [mpm_event:notice] [pid 4125:tid 3066261504] AH00491: caught SIGTERM, shutting down
+[Wed Nov 25 15:47:27.049205 2015] [mpm_event:notice] [pid 5015:tid 3066257408] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 15:47:27.049968 2015] [core:notice] [pid 5015:tid 3066257408] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 15:49:35.456364 2015] [mpm_event:notice] [pid 5015:tid 3066257408] AH00491: caught SIGTERM, shutting down
+[Wed Nov 25 15:49:36.793140 2015] [mpm_event:notice] [pid 5129:tid 3065950208] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 15:49:36.793935 2015] [core:notice] [pid 5129:tid 3065950208] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 15:50:39.926231 2015] [mpm_event:notice] [pid 5129:tid 3065950208] AH00491: caught SIGTERM, shutting down
+[Wed Nov 25 15:50:41.270121 2015] [mpm_event:notice] [pid 5242:tid 3066925056] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 15:50:41.270905 2015] [core:notice] [pid 5242:tid 3066925056] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 15:17:19.088126 2015] [mpm_event:notice] [pid 2154:tid 3066576896] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 15:17:19.093676 2015] [core:notice] [pid 2154:tid 3066576896] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 16:17:23.397353 2015] [mpm_event:notice] [pid 2160:tid 3066896384] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 16:17:23.399854 2015] [core:notice] [pid 2160:tid 3066896384] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 16:17:18.967738 2015] [mpm_event:notice] [pid 2162:tid 3066564608] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 16:17:18.970132 2015] [core:notice] [pid 2162:tid 3066564608] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 16:17:16.998808 2015] [mpm_event:notice] [pid 2101:tid 3066036224] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 16:17:17.001418 2015] [core:notice] [pid 2101:tid 3066036224] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 16:17:23.078284 2015] [mpm_event:notice] [pid 2159:tid 3066703872] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 16:17:23.080688 2015] [core:notice] [pid 2159:tid 3066703872] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 16:17:17.052450 2015] [mpm_event:notice] [pid 2099:tid 3066650624] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 16:17:17.054836 2015] [core:notice] [pid 2099:tid 3066650624] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 16:17:22.687189 2015] [mpm_event:notice] [pid 2160:tid 3066503168] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 16:17:22.689720 2015] [core:notice] [pid 2160:tid 3066503168] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 16:17:18.734059 2015] [mpm_event:notice] [pid 2159:tid 3066945536] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 16:17:18.736519 2015] [core:notice] [pid 2159:tid 3066945536] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 16:17:19.077365 2015] [mpm_event:notice] [pid 2159:tid 3066851328] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 16:17:19.079880 2015] [core:notice] [pid 2159:tid 3066851328] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 16:25:04.179608 2015] [mpm_event:notice] [pid 2159:tid 3066851328] AH00491: caught SIGTERM, shutting down
+[Wed Nov 25 16:25:49.884123 2015] [mpm_event:notice] [pid 2163:tid 3066093568] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 16:25:49.886636 2015] [core:notice] [pid 2163:tid 3066093568] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 25 23:55:42.517424 2015] [mpm_event:notice] [pid 2163:tid 3066093568] AH00491: caught SIGTERM, shutting down
+[Wed Nov 25 23:56:23.047775 2015] [mpm_event:notice] [pid 2213:tid 3066544128] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Nov 25 23:56:23.050135 2015] [core:notice] [pid 2213:tid 3066544128] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 00:28:02.564771 2015] [mpm_event:notice] [pid 2213:tid 3066544128] AH00491: caught SIGTERM, shutting down
+[Thu Nov 26 00:28:44.613078 2015] [mpm_event:notice] [pid 2221:tid 3066114048] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 00:28:44.615438 2015] [core:notice] [pid 2221:tid 3066114048] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 00:28:22.783317 2015] [mpm_event:notice] [pid 2218:tid 3066040320] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 00:28:22.785951 2015] [core:notice] [pid 2218:tid 3066040320] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 00:28:22.561498 2015] [mpm_event:notice] [pid 2220:tid 3066454016] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 00:28:22.567392 2015] [core:notice] [pid 2220:tid 3066454016] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 00:31:16.094786 2015] [mpm_event:notice] [pid 2220:tid 3066454016] AH00491: caught SIGTERM, shutting down
+[Thu Nov 26 00:31:32.716509 2015] [mpm_event:notice] [pid 2220:tid 3066552320] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 00:31:32.718858 2015] [core:notice] [pid 2220:tid 3066552320] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 00:31:32.800407 2015] [mpm_event:notice] [pid 2199:tid 3066392576] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 00:31:32.802726 2015] [core:notice] [pid 2199:tid 3066392576] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 00:31:32.850570 2015] [mpm_event:notice] [pid 2231:tid 3066503168] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 00:31:32.852903 2015] [core:notice] [pid 2231:tid 3066503168] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 13:49:22.157305 2015] [mpm_event:notice] [pid 2231:tid 3066503168] AH00491: caught SIGTERM, shutting down
+[Thu Nov 26 13:49:22.536144 2015] [mpm_prefork:notice] [pid 5993] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 13:49:22.537039 2015] [core:notice] [pid 5993] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 13:49:25.185511 2015] [mpm_prefork:notice] [pid 5993] AH00169: caught SIGTERM, shutting down
+[Thu Nov 26 13:49:25.905716 2015] [mpm_prefork:notice] [pid 6086] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 13:49:25.906077 2015] [core:notice] [pid 6086] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 16:18:48.051383 2015] [mpm_prefork:notice] [pid 2702] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 16:18:48.058557 2015] [core:notice] [pid 2702] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 16:18:51.657250 2015] [mpm_prefork:notice] [pid 2698] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 16:18:51.663405 2015] [core:notice] [pid 2698] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 16:18:49.084792 2015] [mpm_prefork:notice] [pid 2739] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 16:18:49.086416 2015] [core:notice] [pid 2739] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 16:18:54.120693 2015] [mpm_prefork:notice] [pid 2739] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 16:18:54.124522 2015] [core:notice] [pid 2739] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 16:36:38.039309 2015] [core:error] [pid 2762] [client 192.168.0.138:46796] AH00126: Invalid URI in request \xefF\v\x13.\xe7`\xbf\x83\x1ez?\xba\x8dMS0~t\x0ecLo\x1f\xab#
+[Thu Nov 26 16:36:59.217782 2015] [core:error] [pid 3366] [client 192.168.0.138:46818] AH00126: Invalid URI in request \xefN\v\x13.\xe7`\xbf\x83\x1eL\x93\xa1\x82@\xc2\x17o\xb1\xd4
+[Thu Nov 26 16:48:18.791546 2015] [core:error] [pid 2765] [client 192.168.0.138:47062] AH00126: Invalid URI in request \xef\x12\v\x13.\xe7`\xbf\x83\x1ef\x84\xa3^3\xb9\x15\xbfC\x94\xa4;\xb1\xb0\xfa
+[Thu Nov 26 16:50:50.675111 2015] [core:error] [pid 2764] [client 192.168.0.138:47196] AH00126: Invalid URI in request \xef\x12\v\x13.\xe7`\xbf\x83\x1e\x9d\x13\x99
+[Thu Nov 26 16:58:29.581413 2015] [core:error] [pid 3365] [client 192.168.0.138:47319] AH00126: Invalid URI in request \xefV\v\x13.\xe7`\xbf\x83\x1eA6\xa1\x9cp
+[Thu Nov 26 16:58:36.265245 2015] [mpm_prefork:notice] [pid 2739] AH00169: caught SIGTERM, shutting down
+[Thu Nov 26 16:58:58.232554 2015] [mpm_prefork:notice] [pid 2726] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 16:58:58.237761 2015] [core:notice] [pid 2726] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 22:33:37.302130 2015] [:error] [pid 2746] [client 192.168.0.126:54243] PHP Notice:  Undefined variable: result in /var/www/vhosts/caixamagica.eu/decision.php on line 69, referer: http://caixamagica.eu/opciones.html
+[Thu Nov 26 22:33:37.302380 2015] [:error] [pid 2746] [client 192.168.0.126:54243] PHP Fatal error:  Call to a member function fetch_array() on null in /var/www/vhosts/caixamagica.eu/decision.php on line 69, referer: http://caixamagica.eu/opciones.html
+[Thu Nov 26 22:34:07.207581 2015] [:error] [pid 3352] [client 192.168.0.126:54261] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /var/www/vhosts/caixamagica.eu/decision.php on line 27, referer: http://caixamagica.eu/opciones.html
+[Thu Nov 26 22:34:15.172331 2015] [:error] [pid 3353] [client 192.168.0.126:54262] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /var/www/vhosts/caixamagica.eu/decision.php on line 27
+[Thu Nov 26 22:35:04.125758 2015] [:error] [pid 2747] [client 192.168.0.126:54291] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /var/www/vhosts/caixamagica.eu/decision.php on line 27
+[Thu Nov 26 22:35:30.096455 2015] [:error] [pid 2746] [client 192.168.0.126:54300] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /var/www/vhosts/caixamagica.eu/decision.php on line 27, referer: http://caixamagica.eu/problema.php
+[Thu Nov 26 22:36:47.904627 2015] [:error] [pid 2750] [client 192.168.0.126:54329] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /var/www/vhosts/caixamagica.eu/decision.php on line 27
+[Thu Nov 26 22:37:05.212502 2015] [:error] [pid 3352] [client 192.168.0.126:54336] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /var/www/vhosts/caixamagica.eu/decision.php on line 27, referer: http://caixamagica.eu/problema.php
+[Thu Nov 26 22:38:34.245409 2015] [:error] [pid 3348] [client 192.168.0.126:54356] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /var/www/vhosts/caixamagica.eu/solucion.php on line 28, referer: http://caixamagica.eu/opciones.html
+[Thu Nov 26 22:40:47.331171 2015] [mpm_prefork:notice] [pid 2726] AH00169: caught SIGTERM, shutting down
+[Thu Nov 26 22:40:48.805203 2015] [mpm_prefork:notice] [pid 4565] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 22:40:48.805551 2015] [core:notice] [pid 4565] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 17:00:25.884960 2015] [mpm_prefork:notice] [pid 2742] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 17:00:25.898003 2015] [core:notice] [pid 2742] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 17:18:50.296107 2015] [mpm_prefork:notice] [pid 2730] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 17:18:50.306129 2015] [core:notice] [pid 2730] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 17:17:25.289772 2015] [mpm_prefork:notice] [pid 2732] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 17:17:25.291407 2015] [core:notice] [pid 2732] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 17:18:49.800550 2015] [mpm_prefork:notice] [pid 2730] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 17:18:49.802137 2015] [core:notice] [pid 2730] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 26 17:17:46.946403 2015] [mpm_prefork:notice] [pid 2714] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Nov 26 17:17:46.951867 2015] [core:notice] [pid 2714] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 15:52:40.519020 2015] [core:error] [pid 3855] [client 192.168.0.140:57817] AH00126: Invalid URI in request \t\xf9\x9f\xc1S\x1f\x01\x92\xf3
+[Fri Nov 27 15:53:20.639454 2015] [core:error] [pid 3855] [client 192.168.0.140:57886] AH00126: Invalid URI in request Q\xb7J\x94\xb2\xee\t~\xdbW\xea\xf7p\xe6\xe3\x18"\x9e
+[Fri Nov 27 15:58:40.137942 2015] [core:error] [pid 3902] [client 192.168.0.140:58530] AH00126: Invalid URI in request \xf5\x87q \xe0\xb6\xdf\xea\x14\x1e\xa9\xa5\xb0?\xde\xa4x\xc6\xb9\xe5
+[Fri Nov 27 16:02:08.472330 2015] [mpm_prefork:notice] [pid 2714] AH00169: caught SIGTERM, shutting down
+[Fri Nov 27 16:04:05.389163 2015] [mpm_prefork:notice] [pid 2719] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Nov 27 16:04:05.394822 2015] [core:notice] [pid 2719] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 16:12:57.866478 2015] [mpm_prefork:notice] [pid 2696] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Nov 27 16:12:57.879117 2015] [core:notice] [pid 2696] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 16:15:38.043170 2015] [mpm_prefork:notice] [pid 2696] AH00169: caught SIGTERM, shutting down
+[Fri Nov 27 16:15:39.543785 2015] [mpm_prefork:notice] [pid 3806] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 16:15:39.544180 2015] [core:notice] [pid 3806] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 16:17:08.298079 2015] [mpm_prefork:notice] [pid 3806] AH00169: caught SIGTERM, shutting down
+[Fri Nov 27 16:17:54.453731 2015] [mpm_prefork:notice] [pid 2670] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 16:17:54.459385 2015] [core:notice] [pid 2670] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 16:20:06.700136 2015] [mpm_prefork:notice] [pid 2670] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 27 16:20:07.048270 2015] [ssl:warn] [pid 2670] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 16:20:07.049664 2015] [mpm_prefork:notice] [pid 2670] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 16:20:07.049750 2015] [core:notice] [pid 2670] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 16:22:21.374376 2015] [ssl:warn] [pid 2664] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 16:22:22.207850 2015] [ssl:warn] [pid 2690] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 16:22:22.239496 2015] [mpm_prefork:notice] [pid 2690] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 16:22:22.239856 2015] [core:notice] [pid 2690] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 16:33:04.756436 2015] [mpm_prefork:notice] [pid 2690] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 27 16:33:05.169632 2015] [ssl:warn] [pid 2690] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 16:33:05.170979 2015] [mpm_prefork:notice] [pid 2690] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 16:33:05.171060 2015] [core:notice] [pid 2690] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 16:34:00.274258 2015] [mpm_prefork:notice] [pid 2690] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 27 16:34:00.667337 2015] [ssl:warn] [pid 2690] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 16:34:00.668672 2015] [mpm_prefork:notice] [pid 2690] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 16:34:00.668755 2015] [core:notice] [pid 2690] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 16:58:05.433276 2015] [core:error] [pid 3799] [client 192.168.0.140:62924] AH00126: Invalid URI in request \xca\xc2)\xad\r\xedZ*U
+[Fri Nov 27 16:58:06.589117 2015] [core:error] [pid 3789] [client 192.168.0.140:62929] AH00126: Invalid URI in request 1US\xd5\xbc\x84\xf2\xd3e\xbe\xaan\t\x99\xf6\x85\xb2bK\xf8\xe6#\x13\xd9\xffwb"D\x01\xd1\xbf\x9a\xf2\x92\xe5\xb4\x1c\xa6
+[Fri Nov 27 18:17:25.729988 2015] [ssl:warn] [pid 2658] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 18:17:26.540069 2015] [ssl:warn] [pid 2679] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 18:17:26.568833 2015] [mpm_prefork:notice] [pid 2679] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 18:17:26.569255 2015] [core:notice] [pid 2679] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 18:18:52.133433 2015] [ssl:warn] [pid 2690] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 18:18:52.982204 2015] [ssl:warn] [pid 2718] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 18:18:53.013364 2015] [mpm_prefork:notice] [pid 2718] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 18:18:53.013824 2015] [core:notice] [pid 2718] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 18:39:16.291280 2015] [mpm_prefork:notice] [pid 2718] AH00169: caught SIGTERM, shutting down
+[Fri Nov 27 18:39:37.209243 2015] [ssl:warn] [pid 2640] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 18:39:38.028352 2015] [ssl:warn] [pid 2666] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 18:39:38.074244 2015] [mpm_prefork:notice] [pid 2666] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 18:39:38.074596 2015] [core:notice] [pid 2666] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 18:39:37.534428 2015] [ssl:warn] [pid 2676] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 18:39:38.337651 2015] [ssl:warn] [pid 2701] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 18:39:38.381954 2015] [mpm_prefork:notice] [pid 2701] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 18:39:38.382312 2015] [core:notice] [pid 2701] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 20:18:54.501008 2015] [ssl:warn] [pid 2687] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 20:18:55.326671 2015] [ssl:warn] [pid 2713] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 20:18:55.361770 2015] [mpm_prefork:notice] [pid 2713] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 20:18:55.362156 2015] [core:notice] [pid 2713] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 20:32:41.039030 2015] [mpm_prefork:notice] [pid 2713] AH00169: caught SIGTERM, shutting down
+[Fri Nov 27 20:33:28.800160 2015] [ssl:warn] [pid 2670] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 20:33:29.626641 2015] [ssl:warn] [pid 2694] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 20:33:29.658978 2015] [mpm_prefork:notice] [pid 2694] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 20:33:29.659346 2015] [core:notice] [pid 2694] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 21:37:23.944171 2015] [:error] [pid 3340] [client 192.168.0.125:56348] script '/var/www/vhosts/caixamagica.eu/vezualizacao.php' not found or unable to stat, referer: http://caixamagica.eu/
+[Fri Nov 27 21:37:32.435247 2015] [:error] [pid 3422] [client 192.168.0.131:51551] script '/var/www/vhosts/caixamagica.eu/vezualizacao.php' not found or unable to stat, referer: http://caixamagica.eu/
+[Fri Nov 27 21:45:58.650956 2015] [:error] [pid 3520] [client 192.168.0.128:61832] script '/var/www/vhosts/caixamagica.eu/vezualizacao.php' not found or unable to stat, referer: http://caixamagica.eu/
+[Fri Nov 27 22:21:38.212775 2015] [mpm_prefork:notice] [pid 2694] AH00169: caught SIGTERM, shutting down
+[Fri Nov 27 22:23:04.125808 2015] [ssl:warn] [pid 2647] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:23:04.963811 2015] [ssl:warn] [pid 2674] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:23:04.994807 2015] [mpm_prefork:notice] [pid 2674] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 22:23:04.995154 2015] [core:notice] [pid 2674] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 22:24:16.278060 2015] [mpm_prefork:notice] [pid 2674] AH00169: caught SIGTERM, shutting down
+[Fri Nov 27 22:25:07.391127 2015] [ssl:warn] [pid 2659] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:25:08.296573 2015] [ssl:warn] [pid 2687] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:25:08.326710 2015] [mpm_prefork:notice] [pid 2687] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 22:25:08.327066 2015] [core:notice] [pid 2687] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 22:25:46.683846 2015] [mpm_prefork:notice] [pid 2687] AH00169: caught SIGTERM, shutting down
+[Fri Nov 27 22:26:08.377087 2015] [ssl:warn] [pid 2634] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:26:09.202467 2015] [ssl:warn] [pid 2661] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:26:09.227926 2015] [mpm_prefork:notice] [pid 2661] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 22:26:09.228287 2015] [core:notice] [pid 2661] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 22:26:08.410334 2015] [ssl:warn] [pid 2658] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:26:09.268066 2015] [ssl:warn] [pid 2686] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:26:09.300033 2015] [mpm_prefork:notice] [pid 2686] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 22:26:09.300371 2015] [core:notice] [pid 2686] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 22:26:08.055910 2015] [ssl:warn] [pid 2663] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:26:08.902942 2015] [ssl:warn] [pid 2686] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:26:08.944628 2015] [mpm_prefork:notice] [pid 2686] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 22:26:08.945044 2015] [core:notice] [pid 2686] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 22:26:08.806333 2015] [ssl:warn] [pid 2605] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:26:09.619855 2015] [ssl:warn] [pid 2629] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:26:09.656423 2015] [mpm_prefork:notice] [pid 2629] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 22:26:09.656784 2015] [core:notice] [pid 2629] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 22:26:09.204918 2015] [ssl:warn] [pid 2675] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:26:10.001166 2015] [ssl:warn] [pid 2699] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:26:10.031788 2015] [mpm_prefork:notice] [pid 2699] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 22:26:10.032126 2015] [core:notice] [pid 2699] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 22:26:08.773809 2015] [ssl:warn] [pid 2622] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:26:09.599565 2015] [ssl:warn] [pid 2646] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:26:09.627988 2015] [mpm_prefork:notice] [pid 2646] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 22:26:09.628317 2015] [core:notice] [pid 2646] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 22:26:07.702946 2015] [ssl:warn] [pid 2634] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:26:08.500045 2015] [ssl:warn] [pid 2658] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:26:08.540137 2015] [mpm_prefork:notice] [pid 2658] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 22:26:08.540520 2015] [core:notice] [pid 2658] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 22:26:09.163751 2015] [ssl:warn] [pid 2656] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:26:09.974014 2015] [ssl:warn] [pid 2682] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 22:26:10.005217 2015] [mpm_prefork:notice] [pid 2682] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 22:26:10.005624 2015] [core:notice] [pid 2682] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Nov 27 23:17:24.787059 2015] [ssl:warn] [pid 2608] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 23:17:25.613491 2015] [ssl:warn] [pid 2635] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 27 23:17:25.663580 2015] [mpm_prefork:notice] [pid 2635] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Fri Nov 27 23:17:25.663918 2015] [core:notice] [pid 2635] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Nov 28 04:17:24.137458 2015] [ssl:warn] [pid 2667] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Nov 28 04:17:24.970088 2015] [ssl:warn] [pid 2696] AH01909: 127.0.0.1:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Nov 28 04:17:25.016363 2015] [mpm_prefork:notice] [pid 2696] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
+[Sat Nov 28 04:17:25.016785 2015] [core:notice] [pid 2696] AH00094: Command line: '/usr/sbin/apache2'
