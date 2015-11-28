@@ -64,12 +64,12 @@ if (isset($_POST['m1'])) {
 			  <h3>Não...</h3>
 
               <div class="radio-group">
-              <input type="radio" name="m1" value="a" id="pokemonRed"><label for="pokemonRed"><?php echo $texto['question-problema-opcion-1']; ?></label>
+              <input type="radio" name="m1" value="a" id="pokemonRed" checked><label for="pokemonRed"><?php echo $texto['question-problema-opcion-1']; ?></label>
               <input type="radio" name="m1" value="b" id="pokemonRed"><label for="pokemonRed"><?php echo $texto['question-problema-opcion-2']; ?></label>
               <input type="radio" name="m1" value="c" id="pokemonRed"><label for="pokemonRed"><?php echo $texto['question-problema-opcion-3']; ?></label>
               </div>
 
-                  <textarea class="coment" placeholder="Escreva sua queixa aqui..." name="m1_texto"></textarea>
+                  <textarea class="coment" placeholder="Escreva sua queixa aqui..." name="m1_texto" required></textarea>
                   <button type="submit" class="medium success button">ENVIAR</button>
 
 

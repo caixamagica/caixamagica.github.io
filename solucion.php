@@ -84,14 +84,14 @@ else
                 <!-- Grid Example -->
 
               <div class="radio-group">
-              <input type="radio" name="m3" value="a" id="pokemonRed"><label for="pokemonRed"><?php echo $texto['question-solucao-opcion-1']; ?></label><br>
+              <input type="radio" name="m3" value="a" id="pokemonRed" checked><label for="pokemonRed"><?php echo $texto['question-solucao-opcion-1']; ?></label><br>
               <input type="radio" name="m3" value="b" id="pokemonRed"><label for="pokemonRed"><?php echo $texto['question-solucao-opcion-2']; ?></label><br>
               <input type="radio" name="m3" value="c" id="pokemonRed"><label for="pokemonRed"><?php echo $texto['question-solucao-opcion-3']; ?></label><br>
               <input type="radio" name="m3" value="d" id="pokemonRed"><label for="pokemonRed"><?php echo $texto['question-solucao-opcion-4']; ?></label><br/>
               <input type="radio" name="m3" value="e" id="pokemonRed"><label for="pokemonRed"><?php echo $texto['question-solucao-opcion-5']; ?></label>
               </div>
 
-                  <textarea class="coment" name="m3_texto" placeholder="Nenhuma das anteriores? Escreva aqui sua sugestão..."></textarea>
+                  <textarea class="coment" name="m3_texto" placeholder="Nenhuma das anteriores? Escreva aqui sua sugestão..." required></textarea>
                   <button type="submit" class="medium success button">ENVIAR</button>
                 <input type="hidden" name="m3_origem" value="<?php echo $solucao['id']; ?>"/>
 
