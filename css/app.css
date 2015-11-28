@@ -1,6 +1,17 @@
 body.opciones{
 	background-color: #D4E1F1; }
 
+h3 {
+  text-align: left; }
+
+video{
+	margin: 0px 0px 0px 18%; }
+
+@media (max-width: 480px) {
+	    video {
+	        margin: 0%;
+	        width: 100%; } }
+
 #icons {
 		margin: 0;
 		padding: 0; }
@@ -75,6 +86,16 @@ body.opciones{
 	    .section.opcionesq {
 		padding: 5% 0 5% 20%;
 		/*margin: 0 0 0 15%;*/ } }
+
+.section.opcionesa {
+	padding: 5% 25%;
+	width: 100%; }
+
+	@media (max-width: 480px) {
+	    .section.opcionesa {
+		padding: 5% 0;
+		/*margin: 0 0 0 15%;*/ } }
+
 
 .section.opcionesp {
 	padding: 5% 10% 0 30%;
@@ -167,6 +188,21 @@ p.subtitle {
 		    .section.tool4 {
 		        padding: 7% 0 0 25%; } }
 		        
+.section.tool6{
+	padding: 10% 0 0 25%; }
+
+	@media (max-width: 1024px) {
+		    .section.tool6 {
+		        padding: 10% 0 0 20%; } }
+	
+	@media (max-width: 768px) {
+		    .section.tool6 {
+		        padding: 7% 0 0 10%; } }
+	
+	@media (max-width: 768px) {
+		    .section.tool6 {
+		        padding: 7% 0 0 12%; } }
+	
 .section.tool5{
 	padding: 10% 0 0 12%; }
 
@@ -195,7 +231,7 @@ p.subtitle {
 .radio-group {
   display: table;
   width: 100%;
-  margin: 0 0 1rem 20%; }
+  /* margin: 0 0 1rem 20%;*/ }
 
 	@media (max-width: 480px) {
 	    .radio-group {
@@ -246,7 +282,7 @@ p.subtitle {
 			margin: 0 0 0 25%; } }
 		    
 .button.result {
-    margin: 0 0 0 41%;
+    margin: 0 0 0 39%;
     padding: 12px 30px; }
 
 	@media (max-width: 480px) {
@@ -257,9 +293,9 @@ p.subtitle {
 		.button.result {
 		    margin: 0 0 0 20%; } }
 
-	@media (max-width: 1024px) {
+	/* @media (max-width: 1024px) {
 		.button.result {
-			margin: 0 0 0 16%; } }
+			margin: 0 0 0 16%; } } */
 
   .button.result {
     background: #3E539A;
@@ -274,5 +310,76 @@ p.subtitle {
 	text-align: center; }
 
 input[type="radio"].decisao {
-	display: none;
+	display: none; }
+
+.btn-decision{
+	margin: 0 0 0 16%; }
+	
+	@media (max-width: 480px) {
+		.btn-decisicion {
+		    margin: 0; } }
+
+.button.large {
+  font-size: 1.25rem;
+  padding: 2.8rem;
+  border-radius: 10px;
+  border: 2px solid white;
+  box-shadow: 1px 1px 5px gray;
+  float: right;
+  margin-right: 10px; }
+  .button.large:hover, .button.large:focus {
+    box-shadow: none; }
+
+@media (max-width: 480px) {
+		.button.large {
+		    float: none; } }
+
+/* ESTILOS VIZUALIZACION */
+
+.mcentered3 {
+    margin: 0 0 3px 0;
+    text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
+.mcentered, .mcentered2,  {
+    margin: 0 0 3px 0;
+    text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+svg{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+font-size: 12px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+text-align:center;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+	

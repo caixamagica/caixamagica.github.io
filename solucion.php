@@ -71,7 +71,7 @@ else
 
 <div class="row">
       <div class="large-12 columns">
-        <h2>Como você resolveria "<?php echo $solucao['m1_texto']; ?>"</h2>
+        <h2><strong>Como você resolveria "<?php echo $solucao['m1_texto']; ?>"</strong></h2>
       </div>
     </div>
 
@@ -121,7 +121,7 @@ else
         </div>
     </form>
   
-	<div class="logo"><img src="img/logo_caixa.png" alt="Caixa Mágica" width="200" height="79"></div>
+	<div class="logo"><img src="img/logo_caixa_final.png" alt="Caixa Mágica"></div>
 
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>

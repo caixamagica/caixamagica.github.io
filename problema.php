@@ -47,7 +47,7 @@ if (isset($_POST['m1'])) {
 
     <div class="row">
       <div class="large-12 columns">
-        <h2>Tem alguma crítica sobre a barca?</h2>
+        <h2><strong>Qual sua crítica sobre a barca?</strong></h2>
       </div>
     </div>
 
@@ -57,13 +57,14 @@ if (isset($_POST['m1'])) {
           <div class="large-12 columns">
             <div class="opcionesp section">
                 <!-- Grid Example -->
-              <p class="title">Não...</p>
+              <!-- <p class="title">Não...</p> -->
 
+			  <h3>Não...</h3>
 
               <div class="radio-group">
-              <input type="radio" name="m1" value="a" id="pokemonRed"><label for="pokemonRed">Tenho</label>
-              <input type="radio" name="m1" value="b" id="pokemonRed"><label for="pokemonRed">Existe</label>
-              <input type="radio" name="m1" value="c" id="pokemonRed"><label for="pokemonRed">Gosto</label>
+              <input type="radio" name="m1" value="a" id="pokemonRed"><label for="pokemonRed">tenho</label>
+              <input type="radio" name="m1" value="b" id="pokemonRed"><label for="pokemonRed">existe</label>
+              <input type="radio" name="m1" value="c" id="pokemonRed"><label for="pokemonRed">gosto</label>
               </div>
 
                   <textarea class="coment" placeholder="Escreva sua queixa aqui..." name="m1_texto"></textarea>
@@ -98,7 +99,7 @@ if (isset($_POST['m1'])) {
         </div>
     </form>
   
-	<div class="logo"><img src="img/logo_caixa.png" alt="Caixa Mágica" width="200" height="79"></div>
+	<div class="logo"><img src="img/logo_caixa_final.png" alt="Caixa Mágica"></div>
 
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>

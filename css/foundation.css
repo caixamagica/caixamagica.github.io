@@ -1142,7 +1142,7 @@ h2 {
   }
 
 h3 {
-  font-size: 1.1875rem;  }
+  font-size: 1.1875rem; }
 
 h4 {
   font-size: 1.125rem; }
@@ -1399,11 +1399,6 @@ kbd {
     font-size: 0.6rem; }
   .button.small {
     font-size: 0.75rem; }
-  .button.large {
-    font-size: 1.25rem;
-    padding: 2.8rem;
-    border-radius: 10px;
-    border: 2px solid white; }
   .button.expanded {
     display: block;
     width: 100%;
