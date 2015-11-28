@@ -34,7 +34,7 @@ if (isset($_REQUEST['nao_importa'])) {
         <div class="home section">
 	        <!-- Grid Example -->
           
-          <a href="opciones.html" class="big button">Português</a>
+          <a href="opciones.php" class="big button">Português</a>
           <a href="#" class="big button">Español</a>
           
           <!-- FIN Grid Example -->
