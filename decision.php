@@ -7,7 +7,7 @@ include_once( 'textos_' . $_SESSION['lang'] . '.php' );
 if (isset($_POST['m2'])) {
 
     mysqli_query($conn, sprintf( "INSERT INTO transacoes_caixamagica (idioma, metodo, m2, m2d, ip) values ('%s', '%s', '%s', '%s', '%s' )",
-        'por', 2, $_POST['m2'], $_POST['m2d'], $_SERVER['REMOTE_ADDR'] ));
+        $_SESSION['lang'], 2, $_POST['m2'], $_POST['m2d'], $_SERVER['REMOTE_ADDR'] ));
 
     Header('Location: solucion.php');
 
@@ -16,7 +16,7 @@ if (isset($_POST['m2'])) {
 
 
 
-$query = "SELECT id, m1_texto FROM transacoes_caixamagica WHERE metodo=1 ORDER BY rand() LIMIT 2";
+$query = "SELECT id, m1_texto FROM transacoes_caixamagica WHERE metodo=1 AND idioma='" . $_SESSION['lang'] . "' ORDER BY rand() LIMIT 2";
 
 $stmt = $conn->stmt_init();
 if(!$stmt->prepare($query))

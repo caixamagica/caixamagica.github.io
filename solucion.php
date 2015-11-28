@@ -7,7 +7,7 @@ include_once('textos_' . $_SESSION['lang'] . '.php');
 if (isset($_POST['m3'])) {
 
     mysqli_query($conn, sprintf( "INSERT INTO transacoes_caixamagica (idioma, metodo, m3, m3_texto, m3_origem, ip) values ('%s', '%s', '%s', '%s', '%s', '%s' )",
-        'por', 3, $_POST['m3'], $_POST['m3_texto'], $_POST['m3_origem'], $_SERVER['REMOTE_ADDR'] ));
+        $_SESSION['lang'], 3, $_POST['m3'], $_POST['m3_texto'], $_POST['m3_origem'], $_SERVER['REMOTE_ADDR'] ));
 
     Header('Location: agradecimiento.php');
 
@@ -16,7 +16,7 @@ if (isset($_POST['m3'])) {
 }
 
 
-$texto_solucao = "select m2 from (select m2, count(*) as contagem from transacoes_caixamagica where metodo=2 "
+$texto_solucao = "select m2 from (select m2, count(*) as contagem from transacoes_caixamagica where metodo=2 AND idioma='".$_SESSION['lang']."'"
             . "group by m2 order by contagem desc limit 10) as maisvotadas order by rand()";
 
 $stmt_id_solucao = $conn->stmt_init();

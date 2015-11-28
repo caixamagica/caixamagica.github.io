@@ -8,6 +8,9 @@ $texto['question-problema'] = "Qual sua crítica em relação ao LABICBR?";
 $texto['question-problema-opcion-1'] = "deveria";
 $texto['question-problema-opcion-2'] = "tinha";
 $texto['question-problema-opcion-3'] = "gostei";
+$texto['qualitativo-opcion-1'] = "Não deveria ";
+$texto['qualitativo-opcion-2'] = "Não tinha ";
+$texto['qualitativo-opcion-3'] = "Não gostei ";
 
 // decision.php
 $texto['question-decisao'] = "Com qual dessas duas críticas sobre o LABICBR você se identifica mais?";

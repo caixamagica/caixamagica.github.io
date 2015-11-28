@@ -6,8 +6,11 @@ $texto = array();
 $texto['negacion'] = "No";
 $texto['question-problema'] = "Qual es su crítica en relación al LABICBR?";
 $texto['question-problema-opcion-1'] = "deveria";
-$texto['question-problema-opcion-2'] = "tendreria";
+$texto['question-problema-opcion-2'] = "tube";
 $texto['question-problema-opcion-3'] = "me gusto";
+$texto['qualitativo-opcion-1'] = "No deveria ";
+$texto['qualitativo-opcion-2'] = "No tube ";
+$texto['qualitativo-opcion-3'] = "No me gusto ";
 
 // decision.php
 $texto['question-decisao'] = "Con cual de esas dos críticas al LABICBR vos se identifica mas?";

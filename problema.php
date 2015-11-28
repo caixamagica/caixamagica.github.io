@@ -9,18 +9,18 @@ if (isset($_POST['m1'])) {
     $qualitativo = "";
     switch($_POST['m1']) {
         case "a":
-            $qualitativo = "Não tenho ";
+            $qualitativo = $texto['qualitativo-opcion-1'];
             break;
         case "b":
-            $qualitativo = "Não existe ";
+            $qualitativo = $texto['qualitativo-opcion-2'];
             break;
         case "c":
-            $qualitativo = "Não gosto ";
+            $qualitativo = $texto['qualitativo-opcion-3'];
             break;
     }
 
     mysqli_query($conn, sprintf( "INSERT INTO transacoes_caixamagica (idioma, metodo, m1, m1_texto, ip) values ('%s', '%s', '%s', '%s', '%s' )",
-        'por', 1, $_POST['m1'], $qualitativo.$_POST['m1_texto'], $_SERVER['REMOTE_ADDR'] ));
+        $_SESSION['lang'], 1, $_POST['m1'], $qualitativo.strtolower($_POST['m1_texto']), $_SERVER['REMOTE_ADDR'] ));
 
     Header('Location: decision.php');
 
